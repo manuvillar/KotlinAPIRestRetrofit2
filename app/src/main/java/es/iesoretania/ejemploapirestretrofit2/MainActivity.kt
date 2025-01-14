@@ -5,7 +5,9 @@ import android.os.Bundle
 import android.widget.SearchView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView.Adapter
+import es.iesoretania.ejemploapirestretrofit2.adapter.DogAdapter
+import es.iesoretania.ejemploapirestretrofit2.api.APIService
+import es.iesoretania.ejemploapirestretrofit2.api.DogResponse
 import es.iesoretania.ejemploapirestretrofit2.databinding.ActivityMainBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -13,7 +15,6 @@ import kotlinx.coroutines.launch
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.http.QueryName
 
 class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 

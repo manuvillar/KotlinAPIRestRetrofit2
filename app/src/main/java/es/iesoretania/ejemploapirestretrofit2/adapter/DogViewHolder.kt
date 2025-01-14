@@ -1,4 +1,4 @@
-package es.iesoretania.ejemploapirestretrofit2
+package es.iesoretania.ejemploapirestretrofit2.adapter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

@@ -1,4 +1,4 @@
-package es.iesoretania.ejemploapirestretrofit2
+package es.iesoretania.ejemploapirestretrofit2.api
 
 import retrofit2.Response
 import retrofit2.http.GET

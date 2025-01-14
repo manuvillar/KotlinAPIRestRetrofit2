@@ -1,8 +1,9 @@
-package es.iesoretania.ejemploapirestretrofit2
+package es.iesoretania.ejemploapirestretrofit2.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import es.iesoretania.ejemploapirestretrofit2.R
 
 class DogAdapter(private val images:List<String>): RecyclerView.Adapter<DogViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogViewHolder {

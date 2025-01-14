@@ -1,4 +1,4 @@
-package es.iesoretania.ejemploapirestretrofit2
+package es.iesoretania.ejemploapirestretrofit2.api
 
 import com.google.gson.annotations.SerializedName
 
